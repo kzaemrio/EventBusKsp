@@ -1,0 +1,11 @@
+// The pluginManagement {} block must appear before any other statements in the script
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+    }
+}
+
+rootProject.name = "EventBusKsp"
+include ':app'
+include ':compiler'
